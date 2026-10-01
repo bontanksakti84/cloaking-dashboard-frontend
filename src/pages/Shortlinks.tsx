@@ -106,8 +106,8 @@ function Shortlinks() {
 
             await api.createShortlink({
                 original_url: form.original_url.trim(),
-                custom_code:
-                    form.custom_code.trim() || undefined,
+                code:
+                    form.custom_code.trim() || undefined,    
             });
 
             showSuccess(
