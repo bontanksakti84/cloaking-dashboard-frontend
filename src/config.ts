@@ -3,4 +3,4 @@ export const API_BASE_URL =
 
 export const SHORTLINK_BASE_URL =
     import.meta.env.VITE_SHORTLINK_BASE_URL ||
-    "http://localhost:4000";
+    "https://202.10.38.18:4001";
